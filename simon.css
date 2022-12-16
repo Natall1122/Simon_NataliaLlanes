@@ -1,0 +1,182 @@
+.quarter-right {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px 0 0 0;
+        border: 2px solid #000;
+        display: flex;
+  }
+
+.quarter-left {
+    width: 300px;
+    height: 300px;
+    border-radius: 0 300px 0 0;
+    border: 2px solid #000;
+    display: flex;
+  }
+
+  .quarter-bottom-left {
+    width: 300px;
+    height: 300px;
+    border-radius: 0 0 300px 0px;
+    border: 2px solid #000;
+    display: flex;
+  }
+
+  .quarter-bottom-right {
+    width: 300px;
+    height: 300px;
+    border-radius: 0 0 0 300px;
+    border: 2px solid #000;
+    display: flex;
+  }
+
+  .upper-row {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  body{
+    background-color: black;
+  }
+
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 200px solid green;
+    border-bottom: 100px solid transparent;
+  }
+
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 200px solid red;
+    border-bottom: 100px solid transparent;
+  }
+
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellow;
+  }
+
+  .square {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border: 2px solid #000;
+  }
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid blue;
+  }
+
+  
+  .triangle-one {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellow;
+  }
+
+  .triangle-two {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid orange;
+  }
+
+  .triangle-three {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid red;
+  }
+
+  .triangle-four {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid blue;
+  }
+
+  .triangle-five {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid blueviolet;
+  }
+
+  .triangle-six {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid green;
+  }
+
+  .circle-one {
+    background: yellow;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.circle-two {
+  background: orange;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.circle-three {
+background: blue;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.circle-four {
+background: red;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.circle-five {
+background: blueviolet;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.circle-six {
+background: green;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.circle-seven {
+background: yellowgreen;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.div{
+  width: 25px;
+}
