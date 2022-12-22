@@ -72,9 +72,6 @@ function joc() {
 }
 
 
-
-
-
 function comprobacio() {
     daltEsquerra.addEventListener('click', function () {
         daltEsquerra.style.backgroundColor = 'lightyellow';
@@ -264,7 +261,7 @@ function comprobacio2() {
 
 }
 
-function joc3() {
+/* function joc3() {
     m++;
     console.log(m);
     joc();
@@ -435,88 +432,4 @@ function joc4() {
         comprobacio4();
     }
 
-}
-
-
-
-
-
-
-
-
-/*     daltEsquerra.addEventListener('click', function () {
-        daltEsquerra.style.backgroundColor = 'lightyellow';
-        setTimeout(function () {
-            daltEsquerra.style.backgroundColor = 'yellow';
-            if (secuencia[n] == 0) {
-                if (secuencia[j] == 0) {
-                    joc3();
-                } else {
-                    alert('Has perdido');
-                    location.reload();
-                }
-            } else {
-                alert('Has perdido');
-                location.reload();
-            }
-
-        }, 500);
-    }
-    );
-    daltDreta.addEventListener('click', function () {
-        daltDreta.style.backgroundColor = 'lightblue';
-        setTimeout(function () {
-            daltDreta.style.backgroundColor = 'blue';
-
-            if (secuencia[n] == 1) {
-                if (secuencia[j] == 1) {
-                    joc3();
-                } else {
-                    alert('Has perdido');
-                    location.reload();
-                }
-            } else {
-                alert('Has perdido');
-                location.reload();
-            }
-        }, 500);
-    }
-    );
-    baixEsquerra.addEventListener('click', function () {
-        baixEsquerra.style.backgroundColor = 'lightcoral';
-        setTimeout(function () {
-            baixEsquerra.style.backgroundColor = 'red';
-
-            if (secuencia[n] == 2) {
-                if (secuencia[j] == 2) {
-                    joc3();
-                } else {
-                    alert('Has perdido');
-                    location.reload();
-                }
-            } else {
-                alert('Has perdido');
-                location.reload();
-            }
-        }, 500);
-    }
-    );
-    baixDreta.addEventListener('click', function () {
-        baixDreta.style.backgroundColor = 'lightgreen';
-        setTimeout(function () {
-            baixDreta.style.backgroundColor = 'green';
-
-            if (secuencia[n] == 3) {
-                if (secuencia[j] == 3) {
-                    joc3();
-                } else {
-                    alert('Has perdido');
-                    location.reload();
-                }
-            } else {
-                alert('Has perdido');
-                location.reload();
-            }
-        }, 500);
-    }
-    ); */
+} */
