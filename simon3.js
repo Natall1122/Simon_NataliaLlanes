@@ -174,6 +174,7 @@ function comprobacio() {
             daltEsquerra.style.backgroundColor = 'yellow';
         }, 500);
         solucio.push(0);
+        comprovar();
     }
     );
     daltDreta.addEventListener('click', function () {
@@ -183,6 +184,7 @@ function comprobacio() {
             
         }, 500);
         solucio.push(1);
+        comprovar();
     }
     );
     baixEsquerra.addEventListener('click', function () {
@@ -191,6 +193,7 @@ function comprobacio() {
             baixEsquerra.style.backgroundColor = 'red'; 
         }, 500);
         solucio.push(2);
+        comprovar();
     }
     );
     baixDreta.addEventListener('click', function () {
@@ -199,9 +202,10 @@ function comprobacio() {
             baixDreta.style.backgroundColor = 'green';
         }, 500);
         solucio.push(3);
+        comprovar();
     }
     );
-    comprovar();
+    
 
 }
 
